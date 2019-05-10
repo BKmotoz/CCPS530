@@ -1,6 +1,6 @@
 ## Welcome to my page for CCPS 530, Lab1
 
-SoloLearn Certificates:
+SoloLearn Certificates: </b>
 HTML: https://www.sololearn.com/Profile/14060491/HTML
 
 ### Markdown
