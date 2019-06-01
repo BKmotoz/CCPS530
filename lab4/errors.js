@@ -21,5 +21,5 @@ function compute(){
 	x = document.getElementByID("xVal").value;
 	y = document.getElementByID("yVal").value;
 	var ans = parseInt(x) + parseInt(y);
-	document.getElementsByID("answer").value = ans;
+	document.getElementByID("answer").value = ans;
 }
