@@ -18,8 +18,8 @@ var x, y;
 //should compute the value of xVal + yVal and put the answer in the readonly
 //text input location
 function compute(){
-	x = document.getElementByID("xVal").value;
-	y = document.getElementByID("yVal").value;
+	x = document.getElementById("xVal").value;
+	y = document.getElementById("yVal").value;
 	var ans = parseInt(x) + parseInt(y);
-	document.getElementByID("answer").value = ans;
+	document.getElementById("answer").value = ans;
 }
