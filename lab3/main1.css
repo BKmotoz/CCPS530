@@ -1,0 +1,54 @@
+.myLabel {
+	margin: 0;
+	padding: 0;
+	display: black;
+	font-size: 100%;
+	padding-top: 2px;
+	padding-right: 5px;
+	width: 100px;
+	text-align: right;
+	float: left;
+	color: blue;
+}
+
+form {
+	padding: 10px;
+	border: 10px solid yellow;
+	width: 40vw;
+	box-shadow: 10px 10px 8px 10px #888888;
+	border-radius: 40px;
+}
+
+.myinput {
+	border-style: dotted;
+	margin: 0;
+	padding: 0;
+	display: black;
+	font-size: 100%;
+	width: 100px;
+	padding-left: 5px;
+}
+
+input[type='submit'] {
+
+	width: 100px;
+	margin-left: 250px;
+	color: white;
+	background: green;
+	border-radius: 25px;
+	float: center;
+}
+
+input[type='dotted'] {
+
+	border-style: dotted;
+	display: black;
+	font-size: 80%;
+	width: 160px;
+	padding-left: 5px;
+	color: red;
+}
+
+.inputRow {
+	padding: 10px;
+}

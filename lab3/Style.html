@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Style.html</title>
+    <link rel = "stylesheet"
+   		type = "text/css"
+   		href = "main1.css" />
+</head>
+<body>
+    <form action="processForm.php" method="POST">
+    	<div class="inputRow">
+    		<label class="myLabel" for="yourName" class="myLabel">Your Name</label>
+    		<input class="myInput" type="dotted" name="yourName" placeholder="UserName"/ required pattern="[a-zA-Z]{2,}">
+    	</div>
+    	<div class="inputRow">
+    		<label class="myLabel" for="Email" class="myLabel">Email</label>
+    		<input class="myInput" type="dotted" name="Email" placeholder="email@myryerson.ca" pattern="^([a-zA-Z_\-\.]+)@([a-zA-Z_\-\.]+)\.([a-zA-Z]{2,5})$" title="adsf" />
+    	</div>
+    	<div class="inputRow">
+    		<label class="myLabel" for="userName" class="myLabel">User Name</label>
+    		<input class="myInput" type="dotted" placeholder="username" required pattern="[a-zA-Z]+[0-9]*"/>
+    	</div>
+    	<div class="inputRow">
+    		<label class="myLabel">Province</label>
+    		<select class = "myInput">
+               <option value = "AB">Alberta</option>
+               <option value = "BC"selected>British Columbia</option>
+               <option value = "MB">Manitoba</option>
+               <option value = "NB">New Brunswick</option>
+               <option value = "NL">Newfoundland and Labrador</option>
+               <option value = "NT">Northwest Territories</option>
+               <option value = "NS">Nova Scotia</option>
+               <option value = "NU">Nunavut</option>
+               <option value = "ON">Ontario</option>
+               <option value = "PE">Prince Edward Island</option>
+               <option value = "QC">Quebec</option>
+               <option value = "SK">Saskatchewan</option>
+               <option value = "YK">Yukon</option>      
+             </select>
+    	</div>
+    	<div class="inputRow">
+    		<label class="myLabel" for="postalCode" class="myLabel">Postal Code</label>
+    		<input class="myInput" type="dotted" placeholder="M4K 2P7" pattern="[0-9][a-zA-Z][0-9]\s?[a-zA-Z][0-9][a-zA-Z]" />
+    	</div>
+        <div class="inputRow">
+            <input class="myInput" type="submit" name="go" value="Go!"/>
+        </div>
+
+    </form>
+</body>
+</html>
